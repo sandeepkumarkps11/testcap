@@ -1,0 +1,24 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "username": "cgurusamy_yEfsYh",
+  "access_key": "ksqvd8D79PaqQrxpXasL",
+
+  "capabilities": {
+    "project": "Cantaloupe",
+    "build": "SeedParallel",
+    "name": "parallel_test",
+    "browserstack.debug": true,
+    "app": "bs://9529025c6cd4d0af53668452ab2736138973bc9b"
+  },
+
+  "environments": [
+    {
+      "device": "Google Pixel 5",
+      "os_version": "11.0"
+    },
+    {
+      "device": "OnePlus 9",
+      "os_version": "11.0"
+    }
+  ]
+}
